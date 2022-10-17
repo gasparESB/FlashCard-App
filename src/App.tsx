@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Routers from './routes'
+import './styles/global.scss'
 
 function App() {
-
   return (
     <div className="App">
-      <h1>Oi</h1>
+      <Routers />
     </div>
   )
 }
