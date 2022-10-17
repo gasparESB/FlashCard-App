@@ -26,7 +26,6 @@
 :where(html) {
   block-size: 100%;
   font-family: var(--family-normal);
-  line-height: 1.5rem;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -71,15 +70,6 @@
 :where(a) {
   color: inherit;
   text-decoration: none;
-}
-
-:where(img, svg, video, canvas, audio, iframe, embed, object) {
-  display: block;
-}
-
-:where(img, svg, video) {
-  max-inline-size: 100%;
-  block-size: auto;
 }
 
 fieldset {
