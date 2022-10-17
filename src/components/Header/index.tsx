@@ -7,6 +7,9 @@ const Header = () => {
   return(
     <>
     <header className={styles.header}>
+      <h1>
+        FLASHCARDS
+      </h1>
     </header>
     </>
   )

@@ -1,4 +1,15 @@
 .header{
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 50px;
+}
+
+h1{
+  font-family: Inter;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 29px;
+
 }
