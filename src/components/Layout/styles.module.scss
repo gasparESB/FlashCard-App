@@ -1,4 +1,12 @@
 
 .layout__container{
-    display: flex;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout__container__page__content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
