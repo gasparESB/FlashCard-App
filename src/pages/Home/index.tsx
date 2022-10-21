@@ -1,7 +1,8 @@
+import Decks from '../../components/Decks'
 import LeftSideBar from '../../components/LeftSideBar'
 
 const Home = () => {
-  return <h1>Home</h1>
+  return <Decks />
 }
 
 export default Home

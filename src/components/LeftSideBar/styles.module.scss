@@ -11,11 +11,11 @@
   padding: 16px 8px;
   width: 200px;
   background-color: #1f1f1f;
-  transition: .5s ease;
+  transition: 0.5s ease;
   box-shadow: 0px 4px 5px #00000093;
 }
 
-.button{
+.button {
   display: flex;
   margin-bottom: 8px;
   align-items: center;
@@ -26,8 +26,8 @@
   background-color: #386fa4;
   border-style: none;
   color: #f8fcff;
-  transition: .5s ease;
-  transform: translateX(152px);
+  transition: 0.5s ease;
+  transform: translateX(128px);
 }
 
 .navBar__title {
@@ -54,10 +54,10 @@ svg {
   height: 24px;
 }
 
-  .sideBar__list__word{
-    color: #1f1f1f;
-    white-space: nowrap;
-  }
+.sideBar__list__word {
+  color: #1f1f1f;
+  overflow: hidden;
+}
 
 .sideBar__list__item {
   display: flex;
@@ -86,29 +86,25 @@ svg {
   text-decoration: none;
 }
 
-.closed{
+.closed {
   width: 48px;
   padding: 16px 4px;
 
-  .button{
+  .button {
     transform: rotateY(180deg);
     margin: 0 0 8px 4px;
   }
 
-  .sideBar__list__word{
+  .sideBar__list__word {
     display: none;
   }
 
-  .sideBar__link{
+  .sideBar__link {
     display: flex;
 
-  &:hover{
-    background-color: #386fa4;
-    border-radius: 4px;
+    &:hover {
+      background-color: #386fa4;
+      border-radius: 4px;
+    }
   }
-  }
-
 }
-
-
-

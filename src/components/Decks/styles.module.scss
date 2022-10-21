@@ -17,14 +17,18 @@
   font-size: 0.75rem;
 }
 
+
+.deck__card__Link__wrapper{
+  align-self: flex-end;
+  margin-top: auto;
+}
+
 .deck__card__button {
   border-style: none;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background-color: #1f1f1f;
-  align-self: flex-end;
-  margin-top: auto;
 }
 
 .deck__card__button__svg {
