@@ -3,26 +3,25 @@ import { CgCardDiamonds } from 'react-icons/Cg'
 import { CgMathPlus } from 'react-icons/Cg'
 
 interface sideBarOptionsProps {
-  SESSION: string,
+  SESSION: string
   ICON: React.ReactNode
   PATH: string
 }
 
 export const sideBarOptions: sideBarOptionsProps[] = [
-
   {
     SESSION: 'Home',
-    ICON: <CgHomeAlt/>,
-    PATH: '/home',
+    ICON: <CgHomeAlt />,
+    PATH: '/'
   },
   {
     SESSION: 'Criar Deck',
-    ICON: <CgMathPlus/>,
-    PATH: '/create',
+    ICON: <CgMathPlus />,
+    PATH: '/create'
   },
   {
     SESSION: 'Ver Decks',
-    ICON: <CgCardDiamonds/>,
-    PATH: '/decks',
-  },
-];
+    ICON: <CgCardDiamonds />,
+    PATH: '/decks'
+  }
+]
