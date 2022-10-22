@@ -2,7 +2,8 @@
   display: flex;
   padding: 16px;
   flex-direction: column;
-  width: 240px;
+  min-width: 240px;
+  max-width: 500px;
   height: 160px;
   background-color: #fff;
   box-shadow: 2px 2px 12px -7px rgba(0, 0, 0, 0.25);
@@ -17,8 +18,7 @@
   font-size: 0.75rem;
 }
 
-
-.deck__card__Link__wrapper{
+.deck__card__Link__wrapper {
   align-self: flex-end;
   margin-top: auto;
 }
@@ -32,6 +32,5 @@
 }
 
 .deck__card__button__svg {
-color: #fff;
+  color: #fff;
 }
-
