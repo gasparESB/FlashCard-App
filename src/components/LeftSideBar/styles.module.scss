@@ -7,10 +7,10 @@
 .sideBar {
   position: relative;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   padding: 16px 8px;
   width: 200px;
-  background-color: #1f1f1f;
+  background-color: #6461DA;
   transition: 0.5s ease;
   box-shadow: 0px 4px 5px #00000093;
 }
@@ -23,7 +23,7 @@
   border-radius: 4px;
   width: 32px;
   height: 32px;
-  background-color: #386fa4;
+  background-color: #4644cc;
   border-style: none;
   color: #f8fcff;
   transition: 0.5s ease;
@@ -31,7 +31,6 @@
 }
 
 .navBar__title {
-  color: rgb(6, 141, 219);
   padding: 8px;
   font-size: 1rem;
   font-weight: 700;
@@ -50,8 +49,8 @@
 }
 
 svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .sideBar__list__word {
@@ -65,6 +64,11 @@ svg {
   align-items: center;
   border-radius: 4px;
   padding: 8px 8px;
+
+  &:hover {
+    background-color:#4644cc;
+    font-weight: 600;
+  }
 }
 
 .sideBar__list__word {
@@ -72,14 +76,9 @@ svg {
   width: 100%;
   font-size: 0.875rem;
   font-weight: 400;
-  padding-left: 8px;
+  padding-left: 16px;
   color: #f8fcff;
   align-items: center;
-}
-
-.sideBar__list__item:hover {
-  background-color: #386fa4;
-  font-weight: 600;
 }
 
 .sideBar__link {
@@ -103,7 +102,6 @@ svg {
     display: flex;
 
     &:hover {
-      background-color: #386fa4;
       border-radius: 4px;
     }
   }
